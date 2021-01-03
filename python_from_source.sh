@@ -45,8 +45,8 @@ sudo make altinstall
 # sudo update-alternatives --config python3
 
 ##  or symlink like this
-sudo ln -s /usr/local/share/Python-3.7.2/bin/python3.7 /usr/local/bin/
-sudo ln -s /usr/local/share/Python-3.7.2/bin/pip3.7 /usr/local/bin/
+sudo ln -s /usr/local/share/Python-3.7.2/bin/python3.7 /usr/local/bin/  # force
+sudo ln -s /usr/local/share/Python-3.7.2/bin/pip3.7 /usr/local/bin/     # force
 
 echo
 echo "Python-3.7.2 symlinked as python3.7"
